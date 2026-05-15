@@ -1,7 +1,7 @@
 <h1 align="center">AI Papers Hub 🧠📚</h1>
 
 <p align="center">
-  <em>Resources for working with AI research papers.</em><br>
+  <em>Resources for finding, reading, and writing AI research papers.</em><br>
   <em>Find · Read · Understand · Write · Publish · Reproduce</em>
 </p>
 
@@ -15,6 +15,10 @@
 
 <p align="center">
   <b>🔗 250+ verified resources</b> · <b>📚 18 AI subfields</b> · <b>🆓 100% free</b> · <b>🔍 Auto-link-checked weekly</b>
+</p>
+
+<p align="center">
+  <sub><b>Subfields covered:</b> LLMs · Agents · Interpretability · RAG · Vision · Generative AI · 3D & NeRF · RL · Robotics · Speech · Graph ML · Self-Supervised · Time Series · Federated · Theory · AI for Science · Ethics · Seminal Work</sub>
 </p>
 
 ---
