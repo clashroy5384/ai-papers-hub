@@ -1,0 +1,86 @@
+# ──────────────────────────────────────────────
+# OS-generated files
+# ──────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ──────────────────────────────────────────────
+# Editor / IDE files
+# ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+*.sublime-project
+*.sublime-workspace
+
+# ──────────────────────────────────────────────
+# Lychee link checker
+# ──────────────────────────────────────────────
+.lycheecache
+lychee-report.md
+lychee-out.*
+
+# ──────────────────────────────────────────────
+# Local environment / secrets
+# ──────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ──────────────────────────────────────────────
+# Logs and temp files
+# ──────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+*.orig
+
+# ──────────────────────────────────────────────
+# Node (in case anyone adds tooling later)
+# ──────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ──────────────────────────────────────────────
+# Python (in case anyone adds scripts later)
+# ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ──────────────────────────────────────────────
+# Build / generated output
+# ──────────────────────────────────────────────
+dist/
+build/
+*.zip
+*.tar.gz
+
+# ──────────────────────────────────────────────
+# Claude Code local settings
+# ──────────────────────────────────────────────
+.claude/
