@@ -1,0 +1,71 @@
+# lychee configuration
+# Docs: https://github.com/lycheeverse/lychee/blob/master/lychee.example.toml
+
+#############################################################################
+# Cache results so repeated runs are fast and don't hammer servers
+#############################################################################
+cache = true
+max_cache_age = "1d"
+
+#############################################################################
+# Behavior
+#############################################################################
+# Show only failures by default; verbose CI runs will show more
+verbose = "info"
+
+# Don't follow more than this many redirects
+max_redirects = 5
+
+# Be patient with slow servers
+timeout = 20
+
+# How many requests to run in parallel
+max_concurrency = 8
+
+# Retry transient failures (5xx, network blips, rate limits)
+retry_wait_time = 5
+max_retries = 3
+
+#############################################################################
+# What counts as success
+#############################################################################
+# Some sites return 403/429 to bots even when the page is fine for humans.
+# We treat these as "probably OK" rather than failing the build.
+accept = [200, 206, 301, 302, 303, 307, 308, 403, 429]
+
+#############################################################################
+# Exclusions
+#############################################################################
+# These domains are notorious for rate-limiting / blocking automated checks
+# even though their pages work fine for real users.
+exclude = [
+  # Twitter/X requires JS and aggressively blocks bots
+  "twitter\\.com",
+  "x\\.com",
+  # LinkedIn blocks all unauthenticated traffic
+  "linkedin\\.com",
+  # Reddit's anti-bot is harsh on CI runners
+  "reddit\\.com",
+  # Substack rate-limits aggressively
+  "substack\\.com",
+  # Medium often returns 403 to bots
+  "medium\\.com",
+  # YouTube is fine but slow to check; trust the URLs
+  "youtube\\.com",
+  "youtu\\.be",
+]
+
+# Skip URLs that look like emails or local references
+exclude_mail = true
+
+# Don't check loopback or local URLs
+exclude_loopback = true
+exclude_private = true
+
+# Don't fail on URLs that don't have a scheme (e.g., relative anchors like #section)
+include_fragments = false
+
+#############################################################################
+# User agent — some servers reject the default "lychee" UA
+#############################################################################
+user_agent = "Mozilla/5.0 (compatible; lychee-link-checker/1.0; +https://github.com/lycheeverse/lychee)"

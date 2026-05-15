@@ -1,0 +1,51 @@
+name: Link Check
+
+# Run weekly + on changes to markdown files, so dead links get caught quickly.
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.md'
+      - '.github/workflows/link-check.yml'
+      - 'lychee.toml'
+  pull_request:
+    branches: [main]
+    paths:
+      - '**.md'
+  schedule:
+    # Every Monday at 09:00 UTC
+    - cron: '0 9 * * 1'
+  workflow_dispatch:  # Allow manual runs from the Actions tab
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write  # so the workflow can open an issue when links break
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run lychee link checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Check every markdown file in the repo
+          args: >-
+            --config lychee.toml
+            --no-progress
+            --verbose
+            './**/*.md'
+          fail: false  # don't fail the job; we open an issue instead
+          output: lychee-report.md
+
+      - name: Create or update issue when links are broken
+        if: env.lychee_exit_code != '0'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: 'Link Check Report'
+          content-filepath: lychee-report.md
+          labels: |
+            broken-link
+            documentation
