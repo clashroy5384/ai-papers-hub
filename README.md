@@ -14,11 +14,11 @@
 </p>
 
 <p align="center">
-  <b>🔗 250+ verified resources</b> · <b>📚 18 AI subfields</b> · <b>🆓 100% free</b> · <b>🔍 Auto-link-checked weekly</b>
+  <b>🔗 300+ verified resources</b> · <b>📚 20 AI subfields</b> · <b>🆓 100% free</b> · <b>🔍 Auto-link-checked weekly</b>
 </p>
 
 <p align="center">
-  <sub><b>Subfields covered:</b> LLMs · Agents · Interpretability · RAG · Vision · Generative AI · 3D & NeRF · RL · Robotics · Speech · Graph ML · Self-Supervised · Time Series · Federated · Theory · AI for Science · Ethics · Seminal Work</sub>
+  <sub><b>Subfields covered:</b> LLMs · Agents · Interpretability · RAG · Vision · Generative AI · 3D & NeRF · RL · Robotics · Speech · Graph ML · Self-Supervised · Continual Learning · Distillation · Time Series · Federated · Theory · AI for Science · Ethics · Seminal Work</sub>
 </p>
 
 ---
@@ -109,6 +109,7 @@ The sections below follow the lifecycle of a paper. Use the table of contents to
 - **[Google Scholar](https://scholar.google.com/)** — Broadest coverage; supports keyword and author alerts.
 - **[Semantic Scholar](https://www.semanticscholar.org/)** — AI-powered, with TLDRs and citation graphs.
 - **[Connected Papers](https://www.connectedpapers.com/)** — Visual graph of related work.
+- **[ResearchRabbit](https://www.researchrabbit.ai/)** — "Spotify for papers"; visual citation discovery (free).
 - **[Litmaps](https://www.litmaps.com/)** — Citation maps and discovery (free tier).
 - **[CORE](https://core.ac.uk/)** — Aggregates open-access papers from thousands of repositories.
 - **[BASE](https://www.base-search.net/)** — 300M+ open documents (Bielefeld).
@@ -180,12 +181,16 @@ The sections below follow the lifecycle of a paper. Use the table of contents to
 - **[Deep Learning Book](https://www.deeplearningbook.org/)** — Goodfellow, Bengio, Courville.
 - **[Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)** — Bishop; free PDF since 2016.
 - **[The Elements of Statistical Learning](https://hastie.su.domains/ElemStatLearn/)** — Hastie, Tibshirani, Friedman; free PDF.
+- **[An Introduction to Statistical Learning (ISL)](https://www.statlearning.com/)** — James, Witten, Hastie, Tibshirani; free PDF with Python and R editions.
+- **[Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)** — Michael Nielsen's free online book; the gentlest rigorous intro.
 - **[Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html)** — Sutton & Barto, 2nd edition; the canonical RL textbook.
 - **[Dive into Deep Learning](https://d2l.ai/)** — Free interactive book with runnable code (Zhang et al.).
 
 ### Visual & Interactive Explainers
 - **[Distill.pub](https://distill.pub/)** — Visual research articles.
 - **[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)** — Jay Alammar.
+- **[The Annotated Transformer](http://nlp.seas.harvard.edu/annotated-transformer/)** — Harvard NLP's line-by-line code walkthrough of the original paper.
+- **[The Annotated Diffusion Model](https://huggingface.co/blog/annotated-diffusion)** — Hugging Face's DDPM-in-PyTorch walkthrough.
 - **[Lil'Log](https://lilianweng.github.io/)** — Lilian Weng's deep technical posts.
 - **[Sebastian Raschka's blog](https://sebastianraschka.com/blog/)**
 - **[Chris Olah's blog](https://colah.github.io/)** — Foundational visual intuition.
@@ -272,8 +277,11 @@ The sections below follow the lifecycle of a paper. Use the table of contents to
 ### Reproducibility
 - **[ML Reproducibility Challenge](https://reproml.org/)** — Annual replication effort; an official NeurIPS 2026 track.
 - **[ML Code Completeness Checklist](https://github.com/paperswithcode/releasing-research-code)**
+- **[ReScience C](https://rescience.github.io/)** — Peer-reviewed replication journal for computational science.
 - **[Weights & Biases](https://wandb.ai/)** — Experiment tracking (free tier).
 - **[MLflow](https://mlflow.org/)** — Open-source experiment tracking.
+- **[DVC](https://dvc.org/)** — Git-style version control for datasets and ML pipelines.
+- **[CodaLab Worksheets](https://worksheets.codalab.org/)** — Reproducible computational research platform.
 
 <sub><a href="#-table-of-contents">⬆ Back to top</a></sub>
 
@@ -285,10 +293,13 @@ The sections below follow the lifecycle of a paper. Use the table of contents to
 - **[The Batch](https://www.deeplearning.ai/the-batch/)** — Andrew Ng, weekly.
 - **[Import AI](https://importai.substack.com/)** — Jack Clark, weekly.
 - **[AlphaSignal](https://alphasignal.ai/)** — Daily technical digest.
+- **[TLDR AI](https://tldr.tech/ai)** — Daily 5-minute AI brief.
+- **[Smol AI / AI News](https://news.smol.ai/)** — Daily aggregator of AI Twitter, Discords, and Reddit (Swyx).
 - **[The Sequence](https://thesequence.substack.com/)** — Research deep dives.
 - **[Last Week in AI](https://lastweekin.ai/)** — Newsletter + podcast.
 - **[Ahead of AI](https://magazine.sebastianraschka.com/)** — Sebastian Raschka.
 - **[Interconnects](https://www.interconnects.ai/)** — Nathan Lambert on RLHF, frontier models.
+- **[AI as Normal Technology](https://www.normaltech.ai/)** — Arvind Narayanan & Sayash Kapoor (formerly the AI Snake Oil blog).
 
 ### 💬 Communities
 - **[r/MachineLearning](https://www.reddit.com/r/MachineLearning/)**
@@ -305,13 +316,17 @@ The sections below follow the lifecycle of a paper. Use the table of contents to
 
 Each subfield below links to maintained **awesome lists** that cover the area in more depth. Please star them too.
 
-**Quick jump:** [LLMs](#-large-language-models) · [Agents](#-ai-agents--autonomous-systems) · [Interpretability](#-mechanistic-interpretability--alignment) · [RAG](#-retrieval-augmented-generation-rag) · [Vision](#-computer-vision) · [Generative](#-generative-ai-diffusion--multimodal) · [3D & NeRF](#-3d-nerf--gaussian-splatting) · [RL](#-reinforcement-learning) · [Robotics](#-robotics--embodied-ai) · [Speech](#-speech--audio) · [Graphs](#-graph-ml) · [Self-Supervised](#-self-supervised--representation-learning) · [Time Series](#-time-series) · [Federated](#-federated--distributed-learning) · [Theory](#-theory--statistics) · [Science](#-ai-for-science) · [Ethics](#-ai-ethics-fairness--policy) · [Seminal](#-best-papers--seminal-work)
+**Quick jump:** [LLMs](#-large-language-models) · [Agents](#-ai-agents--autonomous-systems) · [Interpretability](#-mechanistic-interpretability--alignment) · [RAG](#-retrieval-augmented-generation-rag) · [Vision](#-computer-vision) · [Generative](#-generative-ai-diffusion--multimodal) · [3D & NeRF](#-3d-nerf--gaussian-splatting) · [RL](#-reinforcement-learning) · [Robotics](#-robotics--embodied-ai) · [Speech](#-speech--audio) · [Graphs](#-graph-ml) · [Self-Supervised](#-self-supervised--representation-learning) · [Continual](#-continual--lifelong-learning) · [Distillation](#-knowledge-distillation--compression) · [Time Series](#-time-series) · [Federated](#-federated--distributed-learning) · [Theory](#-theory--statistics) · [Science](#-ai-for-science) · [Ethics](#-ai-ethics-fairness--policy) · [Seminal](#-best-papers--seminal-work)
 
 ### 🗣️ Large Language Models
 - [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) — The canonical LLM resource list.
 - [Awesome-Efficient-LLM](https://github.com/horseee/Awesome-Efficient-LLM) — Inference and training efficiency.
 - [Awesome-LLM-Inference](https://github.com/xlite-dev/Awesome-LLM-Inference) — Flash-Attention, Paged-Attention, quantization.
 - [Awesome-LLM-Safety](https://github.com/ydyjya/Awesome-LLM-Safety) — Safety research for LLMs.
+- [Awesome-LLM-Reasoning](https://github.com/atfortes/Awesome-LLM-Reasoning) — Chain-of-thought, tree-of-thought, self-consistency, o1/R1-style reasoning.
+- [Awesome-LLM-Long-Context-Modeling](https://github.com/Xnhyacinth/Awesome-LLM-Long-Context-Modeling) — Long-context attention and memory architectures.
+- [Awesome-Mixture-of-Experts](https://github.com/XueFuzhao/awesome-mixture-of-experts) — MoE architectures (Switch, GShard, Mixtral, DeepSeek-MoE).
+- [Awesome-Prompt-Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering) — Prompting techniques and surveys.
 - arXiv: [cs.CL](https://arxiv.org/list/cs.CL/recent) · venue: [ACL Anthology](https://aclanthology.org/)
 
 ### 🤖 AI Agents & Autonomous Systems
@@ -343,6 +358,8 @@ Each subfield below links to maintained **awesome lists** that cover the area in
 ### 🎨 Generative AI, Diffusion & Multimodal
 - [Awesome Generative AI](https://github.com/steven2358/awesome-generative-ai)
 - [Awesome Diffusion Models](https://github.com/diff-usion/Awesome-Diffusion-Models)
+- [Awesome Vision-Language Models](https://github.com/jingyi0000/VLM_survey) — VLM survey + paper list.
+- [Awesome Multimodal LLMs](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) — Survey-grade MLLM list with regular updates.
 - [Awesome LMMs Mechanistic Interpretability](https://github.com/itsqyh/Awesome-LMMs-Mechanistic-Interpretability) — Multimodal interpretability.
 
 ### 🧊 3D, NeRF & Gaussian Splatting
@@ -370,6 +387,13 @@ Each subfield below links to maintained **awesome lists** that cover the area in
 ### 🔄 Self-Supervised & Representation Learning
 - [Awesome Self-Supervised Learning](https://github.com/jason718/awesome-self-supervised-learning) — Canonical list.
 - [Awesome Contrastive Self-Supervised Learning](https://github.com/asheeshcric/awesome-contrastive-self-supervised-learning)
+
+### ♻️ Continual & Lifelong Learning
+- [Awesome Incremental Learning / Lifelong Learning](https://github.com/xialeiliu/Awesome-Incremental-Learning) — Canonical list; class-incremental, task-incremental.
+
+### 🧠 Knowledge Distillation & Compression
+- [Awesome Knowledge Distillation](https://github.com/dkozlov/awesome-knowledge-distillation) — KD papers, surveys, code.
+- [Awesome Model Quantization](https://github.com/Efficient-ML/Awesome-Model-Quantization) — Post-training and quantization-aware training.
 
 ### ⏳ Time Series
 - [Awesome AI for Time Series Papers](https://github.com/qingsongedu/awesome-AI-for-time-series-papers) — Forecasting, anomaly detection, foundation models.
@@ -415,6 +439,11 @@ Each subfield below links to maintained **awesome lists** that cover the area in
 - [NVIDIA Research](https://research.nvidia.com/)
 - [Hugging Face Blog](https://huggingface.co/blog) — Frequent technical write-ups.
 - [Mistral AI](https://mistral.ai/news/)
+- [xAI](https://x.ai/news)
+- [Salesforce AI Research](https://www.salesforceairesearch.com/)
+- [IBM Research AI](https://research.ibm.com/artificial-intelligence)
+- [Alibaba DAMO Academy](https://damo.alibaba.com/labs/language-technology)
+- [Cohere Research](https://cohere.com/research)
 - [BAIR (Berkeley)](https://bair.berkeley.edu/blog/)
 - [Stanford AI Lab](https://ai.stanford.edu/blog/)
 - [CMU ML Blog](https://blog.ml.cmu.edu/)
@@ -454,12 +483,21 @@ Each subfield below links to maintained **awesome lists** that cover the area in
 - **[MMLU-Pro](https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro)** — Harder, less-saturated successor to MMLU.
 - **[GPQA](https://github.com/idavidrein/gpqa)** — Graduate-level, Google-proof Q&A benchmark.
 - **[LiveBench](https://livebench.ai/)** — Contamination-free, monthly-refreshed leaderboard.
+- **[MTEB](https://huggingface.co/spaces/mteb/leaderboard)** — Massive Text Embedding Benchmark; 50+ tasks, 100+ languages.
+- **[BFCL](https://gorilla.cs.berkeley.edu/leaderboard.html)** — Berkeley Function Calling Leaderboard; tool-use evaluation.
+- **[GAIA](https://huggingface.co/spaces/gaia-benchmark/leaderboard)** — General AI Assistants benchmark; multi-step real-world tasks.
+- **[τ-bench](https://github.com/sierra-research/tau-bench)** — Sierra's tool-agent-user interaction benchmark.
+- **[Aider Polyglot](https://aider.chat/docs/leaderboards/)** — Code-editing leaderboard across multiple languages.
+- **[ARC-AGI](https://arcprize.org/leaderboard)** — Abstraction and reasoning corpus; François Chollet.
 
 ### Free Compute
 - **[Google Colab](https://colab.research.google.com/)** — Free GPU tier.
-- **[Kaggle Notebooks](https://www.kaggle.com/code)** — Free GPU/TPU hours.
+- **[Kaggle Notebooks](https://www.kaggle.com/code)** — Free GPU/TPU hours (30 hrs/week GPU).
 - **[Hugging Face Spaces](https://huggingface.co/spaces)** — Free CPU; paid GPU.
 - **[Lightning Studios](https://lightning.ai/)** — Free tier.
+- **[Modal](https://modal.com/)** — Serverless GPU; monthly free credits.
+- **[Paperspace](https://www.paperspace.com/artificial-intelligence)** — Free GPU notebook tier (M4000).
+- **[TPU Research Cloud](https://sites.research.google/trc/)** — Free Cloud TPU access for accepted research projects.
 
 <sub><a href="#-table-of-contents">⬆ Back to top</a></sub>
 
@@ -493,6 +531,7 @@ Each subfield below links to maintained **awesome lists** that cover the area in
 - **[Unpaywall](https://unpaywall.org/products/extension)** — Finds free legal PDFs.
 - **[Zotero Connector](https://www.zotero.org/download/connectors)** — Save citations from any page.
 - **[Open Access Button](https://openaccessbutton.org/)** — Similar to Unpaywall, legal.
+- **[CatalyzeX](https://www.catalyzex.com/)** — Surfaces code implementations for papers on Google, arXiv, Twitter.
 
 ### Accessibility
 - **[arXiv HTML versions](https://info.arxiv.org/about/accessibility_html_papers.html)** — Better for screen readers.
@@ -518,20 +557,31 @@ Papers cited throughout AI research. Useful as background reading.
 <summary><b>🏗️ Deep Learning Foundations</b></summary>
 
 - **[ImageNet Classification with Deep CNNs (AlexNet)](https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html)** — Krizhevsky et al., 2012.
-- **[Deep Residual Learning (ResNet)](https://arxiv.org/abs/1512.03385)** — He et al., 2015.
+- **[Dropout](https://jmlr.org/papers/v15/srivastava14a.html)** — Srivastava et al., 2014.
+- **[Adam optimizer](https://arxiv.org/abs/1412.6980)** — Kingma & Ba, 2014.
 - **[Batch Normalization](https://arxiv.org/abs/1502.03167)** — Ioffe & Szegedy, 2015.
+- **[Deep Residual Learning (ResNet)](https://arxiv.org/abs/1512.03385)** — He et al., 2015.
+- **[U-Net](https://arxiv.org/abs/1505.04597)** — Ronneberger et al., 2015; backbone for segmentation and diffusion.
 
 </details>
 
 <details open>
 <summary><b>🗣️ Transformers & LLMs</b></summary>
 
+- **[Word2Vec](https://arxiv.org/abs/1301.3781)** — Mikolov et al., 2013.
+- **[Seq2Seq](https://arxiv.org/abs/1409.3215)** — Sutskever et al., 2014.
+- **[Attention (Bahdanau)](https://arxiv.org/abs/1409.0473)** — Bahdanau, Cho, Bengio, 2014.
 - **[Attention Is All You Need](https://arxiv.org/abs/1706.03762)** — Vaswani et al., 2017.
 - **[BERT](https://arxiv.org/abs/1810.04805)** — Devlin et al., 2018.
+- **[Sparsely-Gated MoE](https://arxiv.org/abs/1701.06538)** — Shazeer et al., 2017; foundation of modern MoE models.
 - **[GPT-3](https://arxiv.org/abs/2005.14165)** — Brown et al., 2020.
+- **[Scaling Laws (Kaplan)](https://arxiv.org/abs/2001.08361)** — Kaplan et al., 2020.
 - **[Chain-of-Thought Prompting](https://arxiv.org/abs/2201.11903)** — Wei et al., 2022.
 - **[Chinchilla scaling laws](https://arxiv.org/abs/2203.15556)** — Hoffmann et al., 2022.
+- **[FlashAttention](https://arxiv.org/abs/2205.14135)** — Dao et al., 2022; IO-aware exact attention.
+- **[LoRA](https://arxiv.org/abs/2106.09685)** — Hu et al., 2021; low-rank adapters; ubiquitous for fine-tuning.
 - **[LLaMA](https://arxiv.org/abs/2302.13971)** — Touvron et al., 2023; catalyst for open-weights LLMs.
+- **[Mamba](https://arxiv.org/abs/2312.00752)** — Gu & Dao, 2023; selective state space models.
 
 </details>
 
@@ -539,20 +589,26 @@ Papers cited throughout AI research. Useful as background reading.
 <summary><b>🎮 Reinforcement Learning</b></summary>
 
 - **[DQN — Playing Atari](https://arxiv.org/abs/1312.5602)** — Mnih et al., 2013.
+- **[A3C](https://arxiv.org/abs/1602.01783)** — Mnih et al., 2016; asynchronous actor-critic.
 - **[AlphaGo](https://www.nature.com/articles/nature16961)** — Silver et al., 2016.
 - **[PPO](https://arxiv.org/abs/1707.06347)** — Schulman et al., 2017.
+- **[AlphaZero](https://arxiv.org/abs/1712.01815)** — Silver et al., 2017; self-play across Go/chess/shogi.
+- **[MuZero](https://arxiv.org/abs/1911.08265)** — Schrittwieser et al., 2019; planning with a learned model.
 
 </details>
 
 <details>
-<summary><b>🎨 Generative Models</b></summary>
+<summary><b>🎨 Generative Models & Vision</b></summary>
 
-- **[GANs](https://arxiv.org/abs/1406.2661)** — Goodfellow et al., 2014.
 - **[VAE](https://arxiv.org/abs/1312.6114)** — Kingma & Welling, 2013.
+- **[GANs](https://arxiv.org/abs/1406.2661)** — Goodfellow et al., 2014.
 - **[Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)** — Ho et al., 2020.
-- **[CLIP](https://arxiv.org/abs/2103.00020)** — Radford et al., 2021; learning visual concepts from text.
-- **[Latent Diffusion / Stable Diffusion](https://arxiv.org/abs/2112.10752)** — Rombach et al., 2022.
+- **[Vision Transformer (ViT)](https://arxiv.org/abs/2010.11929)** — Dosovitskiy et al., 2020.
 - **[NeRF](https://arxiv.org/abs/2003.08934)** — Mildenhall et al., 2020; neural radiance fields.
+- **[CLIP](https://arxiv.org/abs/2103.00020)** — Radford et al., 2021; learning visual concepts from text.
+- **[Masked Autoencoders (MAE)](https://arxiv.org/abs/2111.06377)** — He et al., 2021.
+- **[Latent Diffusion / Stable Diffusion](https://arxiv.org/abs/2112.10752)** — Rombach et al., 2022.
+- **[3D Gaussian Splatting](https://arxiv.org/abs/2308.04079)** — Kerbl et al., 2023; real-time radiance fields.
 
 </details>
 
@@ -560,9 +616,19 @@ Papers cited throughout AI research. Useful as background reading.
 <summary><b>🛡️ Alignment & Safety</b></summary>
 
 - **[Concrete Problems in AI Safety](https://arxiv.org/abs/1606.06565)** — Amodei et al., 2016.
+- **[Deep RL from Human Preferences](https://arxiv.org/abs/1706.03741)** — Christiano et al., 2017; the RLHF lineage.
 - **[InstructGPT / RLHF](https://arxiv.org/abs/2203.02155)** — Ouyang et al., 2022.
 - **[Constitutional AI](https://arxiv.org/abs/2212.08073)** — Bai et al., 2022.
 - **[Direct Preference Optimization (DPO)](https://arxiv.org/abs/2305.18290)** — Rafailov et al., 2023.
+
+</details>
+
+<details>
+<summary><b>🧪 AI for Science (Foundational)</b></summary>
+
+- **[AlphaFold 2](https://www.nature.com/articles/s41586-021-03819-2)** — Jumper et al., 2021; protein structure prediction.
+- **[Graph Networks as Learnable Physics Engines](https://arxiv.org/abs/1806.01242)** — Sanchez-Gonzalez et al., 2018.
+- **[GNoME — Materials Discovery](https://www.nature.com/articles/s41586-023-06735-9)** — Merchant et al., 2023.
 
 </details>
 
